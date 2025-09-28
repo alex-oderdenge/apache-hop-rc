@@ -1,0 +1,13 @@
+services:
+  hop-web:
+    image: apache/hop-web:latest
+    container_name: hop-web
+    ports:
+      - "8080:8080"            # Hop Web UI
+    environment:
+      HOP_CONFIG_FOLDER: /config   # tell Hop where hop-config.json lives
+    volumes:
+      - ./hop-config:/config       # host config folder (contains hop-config.json)
+      - ./projects:/home/hop/projects       # host projects (pipelines, workflows, metadata)
+    restart: unless-stopped
+
