@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pipeline>
   <info>
-    <name>filename</name>
+    <name>filenam3e</name>
     <name_sync_with_filename>Y</name_sync_with_filename>
     <description/>
     <extended_description/>
@@ -71,8 +71,8 @@
 </headers>
     <attributes/>
     <GUI>
-      <xloc>320</xloc>
-      <yloc>176</yloc>
+      <xloc>384</xloc>
+      <yloc>144</yloc>
     </GUI>
   </transform>
   <transform_error_handling>
